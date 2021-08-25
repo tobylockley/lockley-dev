@@ -1,3 +1,10 @@
+# Project specific
+src/assets
+
+# OS Files
+desktop.ini
+.DS_Store
+
 # Logs
 logs
 *.log
