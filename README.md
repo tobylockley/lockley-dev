@@ -1,2 +1,2 @@
 # lockley-dev
-Personal portfolio website
+Personal website
