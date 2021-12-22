@@ -2,11 +2,11 @@
   "name": "lockley-dev-backend",
   "version": "0.0.1",
   "private": true,
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
