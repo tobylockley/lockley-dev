@@ -1,5 +1,6 @@
 // import cors from "cors"
 import express from "express"
+import "express-async-errors"
 import routes from "./routes/index.js"
 import errorHandler from "./errors/errorHandler.js"
 
