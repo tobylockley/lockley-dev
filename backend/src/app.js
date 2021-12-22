@@ -1,14 +1,14 @@
 // import cors from "cors"
 import express from "express"
-import router from "./routes.js"
-import errorHandler from "./errorHandler.js"
+import routes from "./routes/index.js"
+import errorHandler from "./errors/errorHandler.js"
 
 const app = express()
 const port = process.env.PORT || 3000
 
 // app.use(cors)
 app.use(express.json())
-app.use("/", router)
+app.use(routes)
 app.use(errorHandler)
 
 app.listen(port, () => {

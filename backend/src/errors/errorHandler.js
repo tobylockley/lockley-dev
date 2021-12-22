@@ -1,8 +1,8 @@
-import AppError from "./errors/AppError.js"
-import AuthError from "./errors/AuthError.js"
-import ConflictError from "./errors/ConflictError.js"
-import ForbiddenError from "./errors/ForbiddenError.js"
-import NotFoundError from "./errors/NotFoundError.js"
+import AppError from "./AppError.js"
+import AuthError from "./AuthError.js"
+import ConflictError from "./ConflictError.js"
+import ForbiddenError from "./ForbiddenError.js"
+import NotFoundError from "./NotFoundError.js"
 
 function errorHandler(err, req, res, next) {
   switch (true) {
