@@ -3,10 +3,10 @@
  */
 class AppError extends Error {
   constructor(message) {
-    super()
-    this.name = "AppError"
-    this.message = `Application Error${message ? `: ${message}` : ""}`
+    super();
+    this.name = "AppError";
+    this.message = `Application Error${message ? `: ${message}` : ""}`;
   }
 }
 
-export default AppError
+export default AppError;
